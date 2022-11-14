@@ -1,0 +1,149 @@
+
+
+@media(max-width: 991px){
+  .header .menu-overlay.active{
+  visibility: visible;
+  opacity: 1;
+  }
+  .header .logo{
+       font-size: 25px;
+  }
+}
+
+@media(max-width: 767px){
+
+  .banner-section{
+    margin-top: 53px;
+  }
+  .desk-img{
+    display: none!important;
+  }
+  .mobile-img{
+    display: block!important;
+  }
+  .banner-section .container{
+    max-width: 100%;
+    top: 35px;
+  }
+  .banner-content h1{
+    font-size: 22px;
+  }
+   .banner-content p{
+    font-size: 15px;
+   }
+
+  .top-flex{
+    flex-wrap: wrap;
+    margin: 12px 0px;
+  }
+  .top-flex .left {
+    width: 100%;
+  }
+  .top-flex .right{
+    width: 100%;
+    margin-bottom: 15px 0px;
+  }
+  .search-flex{
+    flex-wrap: wrap;
+    margin: 12px 0px;
+
+  }
+
+   .search-flex li{
+    margin-bottom: 12px;
+    padding: 10px;
+   }
+   .search-flex li .search-btn{
+    height: auto;
+   }
+  .search-flex li{
+    width: 49%;
+  }
+  .search-flex li:nth-child(1){
+    width: 49%;
+  }
+  .search-flex li:nth-child(2){
+    width: 49%;
+  }
+  .search-bx .center {
+    width: 100%;
+  }
+  .desitnation-flex .left{
+    width: 100%;
+  }
+   .desitnation-flex .right{
+    width: 100%;
+  }
+  .desitnation-flex .left img {
+    height: auto;
+  }
+  .desitnation-flex .right ul li{
+    width: 100%;
+    margin: 10px 0px;
+  }
+  .sub-flex h1 {
+    font-size: 22px;
+  }
+  .sub-flex .left{
+    width: 100%;
+  }
+  .sub-flex .right{
+    width: 100%;
+  }
+  .top-flex .left label{
+    font-size: 14px;
+  }
+  .top-flex .left label input[type=radio] {
+    width: 15px;
+    margin-right: 5px;
+  }
+  .search-flex li .search-btn{
+    width: auto;
+  }
+  .input-bx input{
+    width: 260px;
+  }
+  .footer-flex{
+    padding: 10px 0px 0px;
+  }
+
+  .copy-right .container{
+    text-align: center;
+  }
+  .copy-right .right{
+    text-align: center;
+    width: 100%;
+  }
+  .footer{
+    padding: 25px 0px;
+  }
+  .footer-info{
+    margin-bottom: 25px;
+    padding: 0px;
+    width: 100%;
+  }
+  .footer-links{
+    width: 50%;
+    margin: 7px 0px;
+  }
+  .footer-top{
+    max-width: 100%;
+  }
+  .footer-top p{
+    font-size: 15px;
+  }
+  .footer_addres_detail p{
+    width: 100%;
+    font-size: 14px;
+  }
+  .footer-links ul li a {
+    font-size: 14px;
+  }
+  .footer-info img{
+    width: 130px;
+  }
+  .owl-dots{
+    bottom: 20px;
+  }
+}
+  
